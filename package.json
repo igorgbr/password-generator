@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open",
+    "lint": "eslint ./src",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^4.0.2",
+    "vite": "^4.3.4"
+  },
+  "type": "module",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "postcss-node": "^2.0.2",
+    "vite-plugin-css": "^1.0.4"
+  }
 }
